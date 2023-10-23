@@ -1,0 +1,31 @@
+/* tablet responsive */
+@media (max-width: 810px){
+    .navbar .nav__link{
+        display: none;
+    }
+    .navbar .fa-solid{
+     display: block;
+     font-size: 4rem;
+    
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .start{
+        margin: 7rem auto;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .start .start__info{
+        align-items: center;
+    }
+    .start__img{
+        display: none;
+    }
+    .social{
+       text-align: center;
+    }
+    .social__container{
+        justify-content: center;
+    }
+}

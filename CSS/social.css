@@ -1,0 +1,13 @@
+.social{
+    width: 85%;
+    margin: 0 auto 5rem auto;
+}
+.social .social__title{
+    margin-bottom: 2rem;
+    color: var( --paragraph-sent);
+}
+ .social .social__container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+ }
